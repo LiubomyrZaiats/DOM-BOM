@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div#area {
+	height: 100vh;
+	background: #c4e3ec;
+}
+
+div#player {
+  width: 20px;
+  height: 20px;
+  background: green;
+
+  transition: all 0.3s ease-out 0s;
+  
+  position: absolute;
+}
+
+div#bullet1 {
+	width: 10px;
+	height: 10px;
+	transition: all 1.5s ease-out 0s;
+	position: absolute;
+}
+
+.bullet {
+  width: 5px;
+  height: 5px;
+  background: red;
+  border-radius: 15px / 15px;
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  transition: all 10s ease-out 0s;
+}
+
+.bulletOut {
+  top: 5000px;
+  width: 25px;
+  height: 25px;
+} 

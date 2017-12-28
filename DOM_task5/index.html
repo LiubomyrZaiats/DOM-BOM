@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM_5</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="one">
+	<div id="box1" class="box">div1
+  	<div id="box2" class="box">div2
+    	<div id="box3" class="box">div3
+    
+    	</div>
+  	</div>
+	</div>
+	<span>event.stopPropagation - зупиняє всі наступні події по верху дерева DOM.</span>
+	<p>Якщо клікнути на div3 то подія onclick спочатку визивається на box3, потім на box2 і потім box1. Метод stopPropagation() зупиняє такий ланцюг подій.</p>
+
+</div>
+
+
+<div class="two">
+	<div id="box4" class="box">div4
+  	<div id="box5" class="box">div5
+    	<div id="box6" class="box">div6
+    
+    	</div>
+  	</div>
+	</div>
+	<span>event.preventDefault - зупиняє стандартну подію браузера</span>
+	<p>При кліку на div6 визвуться всі блоки. Event.preventDefault використовується коли потрібно виконати певну подію при кліку на посилання а сам перехід виконувати не потрібно.</p>	
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

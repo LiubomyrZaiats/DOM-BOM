@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.download-message {
+  display: none;
+}
+
+.os {
+  font-size: 35px;
+  color: #41fb1f;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+}
+
+.mac {
+  height: 100vh;
+  background-image: url("mac.jpeg");
+  background-size: cover;
+}
+
+.windows {
+  height: 100vh;
+  background-image: url("windows.jpg");
+  background-size: cover;
+}

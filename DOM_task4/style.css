@@ -1,0 +1,26 @@
+.lang {
+  display: none;
+}
+
+.lang.visible {
+  display: inline;
+}
+
+body {
+	background: #cacaca;
+	margin-top: 100px;
+	text-align: center;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background: #97ffa8;
+	border: 2px solid green;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#welcome-message {
+	padding: 10px;
+}
