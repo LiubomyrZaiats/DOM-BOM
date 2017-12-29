@@ -37,7 +37,7 @@ function validateForm(click) {
     	date = inputDate.value,
     	submit = inputSubmit.value;
   
-	    if (isNaN(age) || age <= 0) {
+  		if (! /^[0-9]+$/.test(age)) {
 	        alert('Age is invalid');
 	        return false;
 	    }
@@ -62,7 +62,7 @@ function validateForm(click) {
 	        alert('Date is invalid');
 	        return false;
 	    }
-	  alert('Your data is invalid');
+	  alert('Your data is valid');
 }
   
 
