@@ -37,7 +37,7 @@ function validateForm(click) {
     	date = inputDate.value,
     	submit = inputSubmit.value;
   
-  		if (! /^[0-9]+$/.test(age)) {
+  	   if (! /^[0-9]+$/.test(age)) {
 	        alert('Age is invalid');
 	        return false;
 	    }
